@@ -20,15 +20,16 @@ function calculate() {
         return;
     }
 
+    
     switch (operation) {
         case "+":
-        result = num1 + num2;
-        break;
-        case "-":
-        result = num1 - num2;
-        break;
-        case "*":
-        result = num1 * num2;
+            result = num1 + num2;
+            break;
+            case "-":
+                result = num1 - num2;
+                break;
+                case "*":
+                    result = num1 * num2;
         break;
         case "/":
         result = num1 / num2;
@@ -43,3 +44,8 @@ function calculate() {
 }
 
 
+function clearCalculator() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").textContent = "";
+}

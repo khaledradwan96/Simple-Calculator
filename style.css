@@ -41,10 +41,18 @@ body {
   color: white;
   cursor: pointer;
   border: none;
+  transition: 0.3s;
 }
 
 .calculator button:hover {
   background-color: #005f99;
+}
+
+.calculator button:nth-of-type(2) {
+  background-color: #e74c3c;
+}
+.calculator button:nth-of-type(2):hover {
+  background-color: #c0392b;
 }
 
 #result {
