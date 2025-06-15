@@ -10,6 +10,24 @@
 
 <body>
 
+    <div class="calculator">
+        <h2>Simple Calculator</h2>
+
+        <input type="number" id="num1" placeholder="Enter first number" />
+
+        <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
+        </select>
+
+        <input type="number" id="num2" placeholder="Enter second number" />
+
+        <button onclick="calculate()">Calculate</button>
+
+        <div id="result"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
